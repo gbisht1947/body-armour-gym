@@ -1,0 +1,322 @@
+body {
+  color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.701);
+  padding: 0px;
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+  background: url(url/im);
+  background-attachment: fixed;
+}
+.left {
+  position: absolute;
+  
+  left: 15px;
+  top: 20px;
+  font-size: 1.3rem;
+  display: flex;
+  margin: 10px;
+}
+.left img {
+  filter: invert(100%);
+  position: sticky;
+  top: 0
+;
+}
+
+.nav::before {
+  content: "";
+  /* background-color: rgb(0, 0, 0);
+  opacity: 0.3; */
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  max-width: 100%;
+  width: 100%;
+  z-index: -1;
+  
+}
+
+.nav {
+  display: flex;
+  position:sticky;
+  top: 0;
+  /* border: 10rem; */
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.nav ul {
+  display: flex;
+  position:sticky;
+}
+.nav ul li {
+  display: flex;
+  list-style: none;
+  font-size: 1.5rem;
+  position: sticky;
+}
+.nav ul li a {
+  color: rgb(233, 233, 233);
+  display: block;
+  padding: 15px 30px;
+  text-decoration: none;
+  border-radius: 15px;
+  position:sticky;
+
+}
+
+.nav ul li a:hover {
+  color: rgba(255, 255, 255, 0.884);
+  /* background-color: rgb(6, 66, 66); */
+  border-radius: 15px;
+  font-size: 2rem;
+  /* font-size: larger; */
+  transition: all;
+ 
+}
+
+#home {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  padding: 130px 224px;
+  height: 471px;
+  justify-content: center;
+}
+
+#home::before {
+  content: "";
+  background: url(../imgg/_Young\,\ Fit\ Black\ Man\ Recovering\ After\ Training\ Hard\ In\ Fitness\ Gym\ -\ Lifting\ Weights_\ by\ Stocksy\ Contributor\ _Rob\ And\ Julia\ Campbell_.jpg)  center cover;
+  
+  filter: brightness(0.5);
+  position: absolute;
+  background-color:rgb(22, 22, 22); 
+  height: 100%;
+  width: 100%;
+  background-attachment: scroll;
+  /* filter: invert; */
+  top: 0;
+  left: 0;
+  z-index: -1;
+  opacity:0.9;
+}
+
+#btn {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 20px;
+  background-color: rgb(14, 189, 116);
+  color: azure;
+  padding: 15px 15px;
+  border: 3px grey;
+  border-radius: 7px;
+  cursor: pointer;
+}
+#btn:hover {
+  background-color: rgb(149, 224, 36);
+  color: rgba(255, 255, 255, 0.856);
+}
+.hpm {
+  font-size: 5rem;
+  text-align: center;
+  display: flex;
+  padding: 0.7px;
+  margin: 0.5rem;
+  border-radius: 10px;
+  font-family: 'Fjalla One', sans-serif;
+  color: rgba(223, 219, 9, 0.884);  
+}
+
+
+#home h3 { color: rgba(255, 255, 255, 0.877);
+ 
+  font-size: 3rem;
+  text-align: center;
+  display: flex;
+  margin: 1rem;
+  margin-bottom: 1.5rem;
+  margin-top: 2.5rem;
+  padding: 2.5px;
+}
+#home p {justify-content: center;
+            text-align: center;
+            margin: 48px;
+            margin-top: -14px;
+            margin-bottom: 46px;
+          color: rgb(255, 255, 255);}
+
+.hpm1{font-size: 7rem; padding: 10px;
+  text-align: center;
+  margin-top: 20rem;
+  margin-bottom: 1rem;
+  font-family: 'Fjalla One', sans-serif;
+  color: rgb(143, 143, 3);
+  /* align-items: center; */}
+  
+#aservice{
+  background-color: rgb(182, 182, 12);
+}
+
+#servicel{
+  color: rgb(0, 0, 0);
+  margin: 25px;
+  display: flex;
+  padding: 100px;
+  }
+
+  #servicer{
+    color: rgb(0, 0, 0);
+    margin: 25px;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 100px;
+    }
+  
+
+
+.inboxl h2{
+  font-family: 'Fjalla One', sans-serif;
+  
+  font-size: 3rem;
+  margin-bottom: 0px;
+}
+.inboxr h2{
+  font-family: 'Fjalla One', sans-serif;
+  
+  font-size: 3rem;
+  margin-bottom: 0px;
+}
+
+.inboxl {
+  position: relative;
+  margin: 100px;
+  margin-right: 410px;
+  margin-left: 17px;
+  margin-top: -19px;
+}
+
+.inboxr {
+  position: relative;
+  margin: -8px;
+  margin-right: 169px;
+  margin-left: 349px;
+  }
+
+  .boxl img{
+    border: solid black;
+  }
+
+  .boxr img{
+    border: solid black;
+  }
+
+#servicel .boxl img { 
+  height: 250px;
+  width: 250px;
+  margin-left: -314px;
+
+  margin-right: 64px;
+}
+#servicer .boxr img { 
+  height: 250px;
+  width: 250px;
+  margin-right: -313px;
+  
+  margin-left: 24px
+ }
+ 
+ .contact::before{
+  content: "";
+  background: url(../imgg/jared-rice-NTyBbu66_SI-unsplash.jpg) 
+  center/cover;
+  background-attachment: fixed;
+  filter: brightness(0.5);
+  position: absolute;
+  background-color:rgb(22, 22, 22); 
+  
+
+  height: 100%;
+  width: 100%;
+  /* filter: invert; */
+  top: 0;
+  left: 0;
+  z-index: -1;
+  opacity:0.9;
+  }
+  
+  
+   .contact{
+    font-size: 50px;
+    margin-top: 10px;
+    text-align: center;
+    height: 60vh;
+    color: aliceblue;
+    
+    border-radius: 20px;
+   }
+#myVideo{ position: sticky;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+z-index: -1;
+opacity: 01;
+filter: brightness(0.3);
+}
+
+ .contact input{
+  display: flex;
+  margin: 19px;
+  margin-left: 507px;
+  padding: 21px;
+  height: 50px;
+  width: 485px;
+  border-radius: 10px
+ }
+ footer{
+  color: rgb(183, 183, 183);
+  text-align: center;
+  justify-content: center;
+  margin: 100px;
+  margin-top: 300px;
+  font-size: 2rem;
+  /* background-color: black; */
+ }
+ .burger{
+  display: none;
+  position: absolute;
+  top: 15%;
+  right: 5%;
+  cursor: pointer;
+ }
+ .line{
+  width: 33px;
+  background-color: white;
+  height: 3px;
+  margin: 5px 3px;
+ }
+ 
+@media only screen and (max-width: 1204px)
+{
+  .nav{
+    display: flex;
+    flex-direction: column;
+    height: 150px;;
+}
+.nav ul{
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+
+}
+.vclass{
+  opacity: 0;
+}
+
+.burger{
+  display: block;
+  
+}
+
+}
